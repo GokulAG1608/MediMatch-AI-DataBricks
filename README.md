@@ -7,7 +7,7 @@ The working platform is the DataBricks and i predicted the new data aldo by usin
 i created the mlfow in databricks and save model in the mlflow and it create the mlflow run id 
 
 witn that runid we can call the mlflow and upload the new data to predict for the new data 
-n
+
 https://www.kaggle.com/datasets/jessicali9530/kuc-hackathon-winter-2018
 
 The above link contain the dataset where i used 
