@@ -162,7 +162,6 @@ with mlflow.start_run(run_name="Pharma Random Forest Classifier"):
     mlflow.spark.log_model(rf_model, "random_forest_model")
     print(f"Logged Random Forest Model with Accuracy: {accuracy}")
 
-
 # COMMAND ----------
 
 # MAGIC %md
