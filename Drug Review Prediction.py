@@ -133,7 +133,6 @@ with mlflow.start_run(run_name="Pharma Logistic Regression"):
     mlflow.spark.log_model(lr_model, "model")
     print(f"Logged Model with Accuracy: {accuracy}")
 
-
 # COMMAND ----------
 
 from pyspark.ml.classification import RandomForestClassifier
